@@ -1,0 +1,365 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: tahoma;
+}
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #103502;
+    padding: 18px;
+    z-index: 100;
+}
+.bxs-badge-check{
+    font-size: 35px;
+    color: #007bf3;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav{
+    max-width: 1300px;
+    margin: auto;
+    width: 100%;
+}
+.logo{
+    font-size: 2em;
+    font-weight: 600;
+    color: #e7f719;
+    font-variant: small-caps;
+}
+#nav ul{
+    display: flex;
+}
+#navv{
+    display: none;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 15px;
+    color: #e7f719;
+}
+li a:hover{
+    color: #fff;
+}
+.baniere{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    height: 85vh;
+    background: silver;
+}
+.left{
+    width: 50%;
+    height: 83vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    margin: auto;
+    gap: 3em;
+}
+.left p{
+    color: black;
+    text-align: justify;
+}
+.left a{
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    background: silver;
+    color: black;
+    padding: 13px 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.left a:hover{
+    color: #e7f719;
+    background: #103502;
+}
+.right{
+    width: 50%;
+    height: 83vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    margin: auto;
+}
+.right h2{
+    color: black;
+}
+#image{
+    width: 100%;
+}
+
+
+/*----section1------*/
+#services{
+    padding-top: 15px;
+}
+#services h1{
+    text-align: center;
+    color: #103502;
+}
+.servicess{
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+.service1{
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+    align-items: center;
+}
+.boite1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.6em;
+}
+.boite{
+    width: 310px;
+    box-shadow: 0 4px 12px rgb(0,0,0,0.4);
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.boite:hover{
+    transform: translateY(-7px);
+}
+.boite p{
+    text-align: center;
+}
+#serv{
+    width: 100%;
+}
+
+/*----section2------*/
+.section2{
+    margin-top: 15px;
+}
+.section22{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.section2 h1{
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+}
+.section2 .gauche{
+    width: 50%;
+    height: 80vh;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.droite{
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    margin: auto;
+    padding: 25px;
+}
+.droite a{
+       text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #e7f719;
+    background: darkcyan;
+    padding: 13px 20px;
+    border-radius: 15px;
+}
+.droite  a:hover{
+    color: black;
+    background: silver;
+    border: 1px solid black;
+}
+.droite p{
+    text-align: justify;
+}
+/*-------section3-------*/
+.section3 h1{
+       text-align: center;
+       padding: 25px;
+}
+.teboi1{
+    width: 600px;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 15px;
+}
+.teboi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+}
+.deux{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+.grand-deux{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+footer{
+    margin-top: 15px;
+    background: silver;
+    padding: 15px;
+}
+.poup{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.copy{
+    text-align: center;
+    margin-top: 25px;
+    color: #103502;
+    font-weight: bold;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1em;
+    background: #007bf3;
+    margin: 25px;
+    color: #fff;
+    padding: 10px;
+}
+#petit{
+    display: none;
+}
+.bxl-whatsapp-square{
+    font-size: 100px;
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    color: seagreen;
+    z-index: 1000;
+}
+
+@keyframes bounce {
+    0%,10%,20%,50%,100%{
+         transform: scale(0.8);
+     }
+     40%{
+         transform: scale(1.2);
+     }
+     60%{
+         transform: scale(1.2);
+     }
+    }
+
+    .bounce{
+        animation-name: bounce;
+        animation-iteration-count: infinite;
+        animation-delay: 1s;
+        animation-duration: 1.3s;
+        animation-fill-mode: both;
+    }
+
+
+@media (max-width:600px){
+    .logo{
+        font-size: 1.5em;
+    }
+    .baniere{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: rgb(0,0,0,0.4);
+    }
+    #petit{
+        display: initial;
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        top: 0;
+        right: 0;
+    }
+    .baniere .left p{
+        display: none;
+    }
+    .right img{
+        display: none;
+    }
+    .left,.right{
+        width: 350px;
+    }
+    .service1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .boite{
+        width: 350px;
+    }
+    .deux{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .teboi1{
+        width: 350px;
+    }
+    .section22 .gauche{
+        display: none;
+    }
+ .section22{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .gauche,.droite{
+    width: 100%;
+ }
+ .section3{
+    margin-top: 50px ;
+ }
+ .poup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1em;
+ }
+
+.bxl-whatsapp-square{
+    position: fixed;
+    font-size: 75px;
+    bottom: 20px;
+    right: 20px;
+} 
+}
